@@ -73,3 +73,9 @@ SLT (set less than)
 - most importantly: connecting all 4 modules together into one top-level CPU
 - testbench that runs an actual RISC-V program through the whole thing
 #### deliverable: top level module, memory module and final testbench
+
+
+
+- PicoRV32[https://github.com/YosysHQ/picorv32] is our reference implementation. when we build our fetch stage, open picorv32.v and find the fetch logic.
+
+- CVA6[https://github.com/openhwgroup/cva6] is our stretch goal. the 6-stage pipeline our team is building is essentially a smol version of what CVA6 does.
