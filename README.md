@@ -3,7 +3,7 @@ every instruction a CPU executes goes through the following workflow in order:
 
 - Fetch : basically grab the next instruction from memory
 - Decode : figure out what instruction it is and read the registers
-- Execute : do the actual math (this is where your ALU!!!!)
+- Execute : do the actual math (ALU!!!!)
 - Memory : read or write to RAM if needed...
 - Writeback : put the result back into a register
 
