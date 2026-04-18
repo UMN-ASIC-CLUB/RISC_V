@@ -35,7 +35,7 @@ ADD, SUB, AND, OR, XOR, SLL (shift left), SRL (shift right), SLT (set less than)
 - testbench that runs an actual RISC-V program through the whole thing
 #### deliverable: top level module, memory module and final testbench
 
-
+## Goals
 
 - PicoRV32[https://github.com/YosysHQ/picorv32] is our reference implementation. when we build our fetch stage, open picorv32.v and find the fetch logic.
 
