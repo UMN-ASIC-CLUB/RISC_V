@@ -56,4 +56,4 @@ SLT (set less than)
 - writeback mux — decides whether to write ALU result or memory data back to register file
 - most importantly: connecting all 4 modules together into one top-level CPU
 - testbench that runs an actual RISC-V program through the whole thing
-#### deliverable: top level module + memory module + final testbench
+#### deliverable: top level module, memory module and final testbench
