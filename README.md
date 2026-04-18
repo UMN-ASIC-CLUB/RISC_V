@@ -1,20 +1,5 @@
 # RISC_V
 every instruction a CPU executes goes through the following workflow in order: 
-```
-Fetch 
-  |
-  V
-Decode 
-  |
-  V
-Execute 
-  |
-  V
-Memory 
-  |
-  V
-Writeback
-```
 
 - Fetch : basically grab the next instruction from memory
 - Decode : figure out what instruction it is and read the registers
