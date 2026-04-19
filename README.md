@@ -20,7 +20,7 @@ outputs: instruction[31:0], pc[31:0]
 inputs:  instruction[31:0], clk, wr_en, rd_addr, wr_data
 outputs: rs1_data[31:0], rs2_data[31:0], immediate[31:0], alu_op
 ```
-## 3. ALU
+## 3. ALU - Paulo
 #### deliverable: a module that takes two 32-bit inputs and an operation code, outputs a 32-bit result
 ```
 inputs:  a[31:0], b[31:0], alu_op[3:0]
