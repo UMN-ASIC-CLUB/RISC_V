@@ -7,14 +7,14 @@ every instruction a CPU executes goes through the following workflow in order:
 - Memory : read or write to RAM if needed...
 - Writeback : put the result back into a register
 
-## 1. Fetch and PC:
+## 1. Fetch and PC - Avi :
 
 ##### deliverable: a module that takes a clock, outputs a 32-bit instruction and current PC every cycle, accepts a "jump to this address" signal from execute
 ```
 inputs:  clk, rst, branch_taken, branch_target
 outputs: instruction[31:0], pc[31:0]
 ```
-## 2. Decode and Register File
+## 2. Decode and Register File - Madeline and Talis
 #### deliverable: a module that takes a 32-bit instruction, outputs decoded fields and two register values
 ```
 inputs:  instruction[31:0], clk, wr_en, rd_addr, wr_data
